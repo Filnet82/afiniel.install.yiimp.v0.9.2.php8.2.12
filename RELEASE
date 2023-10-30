@@ -1,0 +1,38 @@
+0.4v Release 2022-08-01 @afiniel
+
+
+Update Readme.md
+    -> Update the release date and version number.
+    -> Rewrite most of the readme.md file.
+
+Database.
+    -> Create function: database_import_sql
+
+Other.
+    -> Edit end message.
+    -> Remove old folder from the repo.
+    -> Remove unused code.
+    -> Code cleanup.
+-----------------------------------------------------------------
+
+0.3v Release 2022-06-14 @afiniel
+
+Code clean up
+    -> added missing php7.3-memcache php7.3-memcached
+
+SQL fixes.
+    -> Now fully support solo mining.
+    -> The script now import the missing block table
+    -> the scrip also now import missing coins_thepool_life table
+    -> Update SQL DUMP to: 2020-11-10-yaamp.sql.gz
+
+
+Serverconfig Update.
+    -> Added solo fee
+    -> Update sample cold wallet address.
+    
+
+Other.
+    -> Added figlet
+    -> Terminal art fix on start and end
+    -> The script now create a builder on HOME for upcoming.
