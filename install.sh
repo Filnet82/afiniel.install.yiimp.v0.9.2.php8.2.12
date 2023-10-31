@@ -4,7 +4,7 @@
 # Updated by Afiniel for Yiimpool use...
 # This script is intended to be run like this:
 #
-# curl https://raw.githubusercontent.com/Filnet82/Filnet82-afiniel.yiimp.v0.9.2.php8.2.12/main/install.sh | bash
+# curl https://raw.githubusercontent.com/Filnet82/afiniel.install.yiimp.v0.9.2.php8.2.12/main/install.sh | bash
 #
 #########################################################
 
@@ -28,7 +28,7 @@ if [ ! -d $HOME/yiimp_install_script ]; then
 	echo Downloading Yiimpool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/Filnet82/Filnet82-afiniel.yiimp.v0.9.2.php8.2.12 \
+		https://github.com/Filnet82/afiniel.install.yiimp.v0.9.2.php8.2.12 \
 		"$HOME"/yiimp_install_script \
 		< /dev/null 2> /dev/null
 
