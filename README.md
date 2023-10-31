@@ -42,7 +42,7 @@
 <h4 align="left">To install:</h4>
 
 ```
-curl https://raw.githubusercontent.com/Filnet82/Filnet82-afiniel.yiimp.v0.9.2.php8.2.12/main/install.sh | bash
+curl https://raw.githubusercontent.com/Filnet82/afiniel.install.yiimp.v0.9.2.php8.2.12/main/install.sh | bash
 
 ```
   Installation will take approximately 15 minutes. The installer will let you know when the installation is complete.
